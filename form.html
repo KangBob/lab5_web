@@ -1,0 +1,20 @@
+<html>
+<head>
+    <script languange ="javascript">
+        function test (){
+            var vall=document.kirim.T1.value
+            if (vall%2==0)
+                document.kirim.T2.value="GENAP"
+            else
+                document.kirim.T2.value="GANJIL"
+        }
+    </script>
+</head>   
+<body>
+        <form method="post" name="kirim">
+            <p>BILANGAN <input type="text" name="T1" width="20" height="50">
+                MERUPAKAN ANGKA <input type="text" name="T2" width="20" height="50"></p>
+            <p><input type="button"value name="B1" onclick=test()></p>
+        </form>
+</body> 
+</html>
